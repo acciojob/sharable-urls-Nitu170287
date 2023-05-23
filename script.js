@@ -7,7 +7,7 @@ const year = document.getElementById("year");
 
 button.addEventListener("click" , (event) => {
 	event.preventDefault();
-	url.append("name="+name.value +"&"+"year="+year.value);
+	url.append("?name="+name.value +"&"+"year="+year.value);
 	
 	
 })
